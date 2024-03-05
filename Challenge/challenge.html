@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Encriptador</title>
+        <link rel="stylesheet" href="Styles/styles.css">
+        <link class="tipografia" rel="preconnect" href="https://fonts.googleapis.com">
+        <link class="tipografia" rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link class="tipografia" href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,
+                wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <img class="Logo" src="Imagenes/Fotos/Logo.svg" alt="Logo Alura">
+        </header>
+        <main>
+            <section class="seccion1">
+                <div class="contenedor-cajatexto">
+                    <textarea placeholder="Ingrese el Texto aqui" class="cajatexto"></textarea>
+                </div>
+                <div class="alerta">
+                    <img src="Imagenes/Fotos/alerta.svg">
+                    <p> Solo letras minusculas sin acentos</p>
+                </div>
+                <div class="contenedor-botones">
+                    <input type="button" class="boton-encriptar" value="Encriptar">
+                    <input type="button" class="boton-desencriptar" value="Desencriptar">
+                </div>
+            </section>
+            <section class="seccion2">
+                <div class="contenedor-persona">
+                    <img src="Imagenes/persona.png">
+                </div>
+                <div class="contenedor-parrafo">
+                    <h3>Ningun mensaje fue<br>encontrado</h3>
+                    <p>Ingresa el texto que deseas encriptar o <br> desencriptar</p>
+                </div>
+                <div class="contenedor-copiar">
+                    <input type="button" class="boton-copiar" value="Copiar">
+                </div>
+                <div class="contenedor-resultado">
+                    <p class="texto-resultado"></p>
+                </div>
+            </section>
+        </main>
+        <script src="challenge.js"></script>
+    </body>
+
+</html>
